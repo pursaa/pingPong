@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Ping-Pong Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Lets Play Ping-Pong!</h1>
+      </div>
+      <div id="rule">
+        <h4>Rules:</h4>
+        <h5>Ping Pong will count up to your number from 1 with the following exceptions:</h5>
+        <ul>
+          <li><h6>Numbers divisible by 3 are replaced with "ping"</h6></li>
+          <li><h6>Numbers divisible by 5 are replaced with "pong"</h6></li>
+          <li><h6>Numbers divisible by 15 are replaced with "ping-pong"</h6></li>
+        </ul>
+      </div>
+      <br>
+      <br>
+      <img src="img/ping-pong.png" alt="pong image" width="20%" class="img-circle">
+      <form id="inPut">
+        <div class="form-group">
+          <label for="inPutNumber">Enter a number here:</label>
+          <input id="inPutNumber" type="text">
+        </div>
+        <br>
+        <button type="submit" class="btn"><span>Enter</span></button>
+      </form>
+      <br>
+      <div class="outPutInfo" "wrapsssdss ">
+        <p>Numbers are:<br><span id="outPut"></span</p>
+        <ul id="list">
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

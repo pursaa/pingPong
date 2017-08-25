@@ -1,0 +1,90 @@
+body {
+  background-color: #e6ffcc;
+  text-align: center;
+}
+img {
+  padding-bottom: 30px;
+}
+h4 {
+  color: green;
+}
+h5 {
+  color: green;
+}
+h6 {
+  color: green;
+}
+.btn {
+  background-color: pink;
+  color: #cc00cc;
+  font-weight: 600;
+  border: 5px double #cc00cc;
+  font-size: 30px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.btn:hover span {
+  padding-right: 25px;
+}
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.container {
+  background-color: rgba(130,255, 204, 0.7);
+  border: 10px double green;
+}
+.jumbotron {
+  background-color: #4f9900;
+  text-align: center;
+  color: #e6ffcc;
+  border: 10px double #e6ffcc;
+}
+.outPutInfo {
+  color: #ff1590;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: monospace;
+}
+#rule {
+  margin-left: 20px;
+}
+#outPut {
+  color: purple;
+}
+#inputNumber {
+  color: red;
+  border: 5px double #0099ff;
+  width: 200px;
+}
+#inPut {
+  color: #0099ff;
+  font-size: 25px;
+}
+#rule {
+  text-align: left;
+}
+#list {
+  list-style: none;
+  margin-right: 5%
+}
